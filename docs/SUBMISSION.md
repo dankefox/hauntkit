@@ -45,10 +45,20 @@ JavaScript, HTML, CSS, Node.js, Kiro, Model Context Protocol, Zod, OpenAI image 
 - [x] Root .kiro specifications and steering
 - [x] Two separate application folders
 - [x] Browser and MCP implementations
-- [ ] Published source URL verified
+- [x] Published source URL verified: https://github.com/dankefox/hauntkit
 - [ ] Working demo URL verified
 - [ ] Public demonstration video under 3 minutes
 - [ ] Devpost draft details completed and preview checked
 - [ ] Final submission receipt
 - [ ] Credit-program identity verification handled by the participant
+
+## Current concrete assets
+- Source: https://github.com/dankefox/hauntkit (public, MIT).
+- Deployed Site: https://hauntkit.dandanceplay.chatgpt.site (owner-private until
+  an explicit audience choice; this is not yet a public judge-accessible demo).
+- Local video: `site/demo/hauntkit-demo.mp4`, 92 seconds, H.264/AAC, 1080p.
+- Existing Devpost draft: Hauntkit — AI Character Starter, submission 1283278.
+- YouTube has no channel yet; creation accepts new terms and is awaiting the
+  participant's action-time confirmation. No substitute URL is entered into
+  the required YouTube field, and no final submission is claimed.
 

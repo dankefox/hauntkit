@@ -60,6 +60,14 @@ The example worlds also validate semantic save invariants. This is local state v
 Lost Letters keeps the latest 50 previous drafts and 100 journal entries. Ghost Inn retains the latest 100 journal entries.
 Letter text is rendered as text, never as HTML or instructions.
 
+## Walkthrough and evidence
+
+The built website includes a [92-second walkthrough](site/demo/index.html).
+The video uses real browser states, original scene art, and an original score.
+See [verification](docs/VERIFICATION.md), [video sources](docs/demo/README.md),
+and the [actual MCP transport receipt](docs/demo/mcp-receipt.json).
+The video does not claim live AI narration in the browser.
+
 ## Project map
 ```text
 packages/core/engine.mjs          Shared transactional foundation

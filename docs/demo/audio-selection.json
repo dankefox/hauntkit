@@ -1,0 +1,65 @@
+{
+  "music": {
+    "source": "code-original",
+    "script": "score.py",
+    "duration": 92,
+    "bpm": 78,
+    "key": "D minor to F major",
+    "sections": [
+      [
+        0,
+        7
+      ],
+      [
+        7,
+        17
+      ],
+      [
+        17,
+        30
+      ],
+      [
+        30,
+        40
+      ],
+      [
+        40,
+        52
+      ],
+      [
+        52,
+        62
+      ],
+      [
+        62,
+        71
+      ],
+      [
+        71,
+        84
+      ],
+      [
+        84,
+        92
+      ]
+    ]
+  },
+  "sfx": [
+    {
+      "file": "original-audio/sfx/tick.wav",
+      "source": "code-original",
+      "license": "MIT"
+    },
+    {
+      "file": "original-audio/sfx/paper.wav",
+      "source": "code-original",
+      "license": "MIT"
+    },
+    {
+      "file": "original-audio/sfx/confirm.wav",
+      "source": "code-original",
+      "license": "MIT"
+    }
+  ],
+  "listening": "Not human-listened; waveform and loudness checks only."
+}

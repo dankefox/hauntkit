@@ -1,0 +1,334 @@
+{
+  "demo": false,
+  "product": "Hauntkit",
+  "style": "repo",
+  "scope": {
+    "versions": "v0.1.0",
+    "platforms": [
+      "desktop-browser",
+      "local-stdio-mcp"
+    ]
+  },
+  "repo": "../..",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 92,
+  "audioRequired": true,
+  "sfxRequired": true,
+  "typography": {
+    "mode": "english",
+    "enFont": "Georgia",
+    "exceptionReason": "English-language hackathon entry; product and demonstration are English."
+  },
+  "audio": {
+    "ducking": {
+      "enabled": true
+    },
+    "music": {
+      "file": "original-audio/music.wav",
+      "gain": 0.6
+    },
+    "cues": [
+      {
+        "at": 0.15,
+        "actionId": "shot-1-reveal",
+        "file": "original-audio/sfx/paper.wav",
+        "gain": 1.0,
+        "role": "sfx",
+        "kind": "paper",
+        "syncOffset": 0
+      },
+      {
+        "at": 7.15,
+        "actionId": "shot-2-reveal",
+        "file": "original-audio/sfx/tick.wav",
+        "gain": 1.0,
+        "role": "sfx",
+        "kind": "tick",
+        "syncOffset": 0
+      },
+      {
+        "at": 17.15,
+        "actionId": "shot-3-reveal",
+        "file": "original-audio/sfx/tick.wav",
+        "gain": 1.0,
+        "role": "sfx",
+        "kind": "tick",
+        "syncOffset": 0
+      },
+      {
+        "at": 30.15,
+        "actionId": "shot-4-reveal",
+        "file": "original-audio/sfx/confirm.wav",
+        "gain": 1.0,
+        "role": "sfx",
+        "kind": "confirm",
+        "syncOffset": 0
+      },
+      {
+        "at": 40.15,
+        "actionId": "shot-5-reveal",
+        "file": "original-audio/sfx/paper.wav",
+        "gain": 1.0,
+        "role": "sfx",
+        "kind": "paper",
+        "syncOffset": 0
+      },
+      {
+        "at": 52.15,
+        "actionId": "shot-6-reveal",
+        "file": "original-audio/sfx/tick.wav",
+        "gain": 1.0,
+        "role": "sfx",
+        "kind": "tick",
+        "syncOffset": 0
+      },
+      {
+        "at": 62.15,
+        "actionId": "shot-7-reveal",
+        "file": "original-audio/sfx/confirm.wav",
+        "gain": 1.0,
+        "role": "sfx",
+        "kind": "confirm",
+        "syncOffset": 0
+      },
+      {
+        "at": 71.15,
+        "actionId": "shot-8-reveal",
+        "file": "original-audio/sfx/confirm.wav",
+        "gain": 1.0,
+        "role": "sfx",
+        "kind": "confirm",
+        "syncOffset": 0
+      },
+      {
+        "at": 84.15,
+        "actionId": "shot-9-reveal",
+        "file": "original-audio/sfx/confirm.wav",
+        "gain": 1.0,
+        "role": "sfx",
+        "kind": "confirm",
+        "syncOffset": 0
+      }
+    ]
+  },
+  "shots": [
+    {
+      "id": "shot-1",
+      "start": 0,
+      "end": 7,
+      "type": "title",
+      "headline": "Small bones. Living worlds.",
+      "headlineEn": "Small bones. Living worlds.",
+      "description": "Two distinct apps share one character foundation.",
+      "descriptionAt": 0,
+      "claim": true,
+      "source": [
+        "repo:README.md"
+      ],
+      "plainExplanation": "Two distinct apps share one character foundation.",
+      "component": "README.md",
+      "actions": [
+        {
+          "id": "shot-1-reveal",
+          "at": 0.15,
+          "action": "chapter/frame reveal, not an invented UI click",
+          "soundRequired": true
+        }
+      ]
+    },
+    {
+      "id": "shot-2",
+      "start": 7,
+      "end": 17,
+      "type": "detail",
+      "headline": "Pick a door.",
+      "headlineEn": "Pick a door.",
+      "description": "Play in your browser without a sign-up or model key.",
+      "descriptionAt": 0,
+      "claim": true,
+      "source": [
+        "repo:site/index.html"
+      ],
+      "plainExplanation": "Play in your browser without a sign-up or model key.",
+      "component": "site/index.html",
+      "actions": [
+        {
+          "id": "shot-2-reveal",
+          "at": 0.15,
+          "action": "chapter/frame reveal, not an invented UI click",
+          "soundRequired": true
+        }
+      ]
+    },
+    {
+      "id": "shot-3",
+      "start": 17,
+      "end": 30,
+      "type": "detail",
+      "headline": "Look closer.",
+      "headlineEn": "Look closer.",
+      "description": "Explore rooms and keep discovered clues in your notebook.",
+      "descriptionAt": 0,
+      "claim": true,
+      "source": [
+        "repo:apps/ghost-inn/world.mjs"
+      ],
+      "plainExplanation": "Explore rooms and keep discovered clues in your notebook.",
+      "component": "apps/ghost-inn/world.mjs",
+      "actions": [
+        {
+          "id": "shot-3-reveal",
+          "at": 0.15,
+          "action": "chapter/frame reveal, not an invented UI click",
+          "soundRequired": true
+        }
+      ]
+    },
+    {
+      "id": "shot-4",
+      "start": 30,
+      "end": 40,
+      "type": "detail",
+      "headline": "A letter finds its way home.",
+      "headlineEn": "A letter finds its way home.",
+      "description": "Return the letter and choose how the story ends.",
+      "descriptionAt": 0,
+      "claim": true,
+      "source": [
+        "repo:apps/ghost-inn/world.mjs"
+      ],
+      "plainExplanation": "Return the letter and choose how the story ends.",
+      "component": "apps/ghost-inn/world.mjs",
+      "actions": [
+        {
+          "id": "shot-4-reveal",
+          "at": 0.15,
+          "action": "chapter/frame reveal, not an invented UI click",
+          "soundRequired": true
+        }
+      ]
+    },
+    {
+      "id": "shot-5",
+      "start": 40,
+      "end": 52,
+      "type": "detail",
+      "headline": "Bring a memory.",
+      "headlineEn": "Bring a memory.",
+      "description": "Bring a recipient and a memory to the writing desk.",
+      "descriptionAt": 0,
+      "claim": true,
+      "source": [
+        "repo:apps/lost-letters/world.mjs"
+      ],
+      "plainExplanation": "Bring a recipient and a memory to the writing desk.",
+      "component": "apps/lost-letters/world.mjs",
+      "actions": [
+        {
+          "id": "shot-5-reveal",
+          "at": 0.15,
+          "action": "chapter/frame reveal, not an invented UI click",
+          "soundRequired": true
+        }
+      ]
+    },
+    {
+      "id": "shot-6",
+      "start": 52,
+      "end": 62,
+      "type": "detail",
+      "headline": "Warm. Gentle. Clear.",
+      "headlineEn": "Warm. Gentle. Clear.",
+      "description": "Revise the draft into one of three authored tones.",
+      "descriptionAt": 0,
+      "claim": true,
+      "source": [
+        "repo:apps/lost-letters/world.mjs"
+      ],
+      "plainExplanation": "Revise the draft into one of three authored tones.",
+      "component": "apps/lost-letters/world.mjs",
+      "actions": [
+        {
+          "id": "shot-6-reveal",
+          "at": 0.15,
+          "action": "chapter/frame reveal, not an invented UI click",
+          "soundRequired": true
+        }
+      ]
+    },
+    {
+      "id": "shot-7",
+      "start": 62,
+      "end": 71,
+      "type": "detail",
+      "headline": "Make it yours.",
+      "headlineEn": "Make it yours.",
+      "description": "Hand-edit, undo and download the letter; nothing is sent.",
+      "descriptionAt": 0,
+      "claim": true,
+      "source": [
+        "repo:apps/lost-letters/world.mjs"
+      ],
+      "plainExplanation": "Hand-edit, undo and download the letter; nothing is sent.",
+      "component": "apps/lost-letters/world.mjs",
+      "actions": [
+        {
+          "id": "shot-7-reveal",
+          "at": 0.15,
+          "action": "chapter/frame reveal, not an invented UI click",
+          "soundRequired": true
+        }
+      ]
+    },
+    {
+      "id": "shot-8",
+      "start": 71,
+      "end": 84,
+      "type": "detail",
+      "headline": "The same small bones.",
+      "headlineEn": "The same small bones.",
+      "description": "The real local MCP server uses the same versioned rules.",
+      "descriptionAt": 0,
+      "claim": true,
+      "source": [
+        "repo:packages/mcp/index.mjs"
+      ],
+      "plainExplanation": "The real local MCP server uses the same versioned rules.",
+      "component": "packages/mcp/index.mjs",
+      "actions": [
+        {
+          "id": "shot-8-reveal",
+          "at": 0.15,
+          "action": "chapter/frame reveal, not an invented UI click",
+          "soundRequired": true
+        }
+      ]
+    },
+    {
+      "id": "shot-9",
+      "start": 84,
+      "end": 92,
+      "type": "end",
+      "headline": "Start your next world.",
+      "headlineEn": "Start your next world.",
+      "description": "MIT source and Kiro specifications are included.",
+      "descriptionAt": 0,
+      "claim": true,
+      "source": [
+        "repo:docs/KIRO-DEVELOPMENT.md"
+      ],
+      "plainExplanation": "MIT source and Kiro specifications are included.",
+      "component": "docs/KIRO-DEVELOPMENT.md",
+      "actions": [
+        {
+          "id": "shot-9-reveal",
+          "at": 0.15,
+          "action": "chapter/frame reveal, not an invented UI click",
+          "soundRequired": true
+        }
+      ]
+    }
+  ]
+}

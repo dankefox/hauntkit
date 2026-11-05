@@ -1,0 +1,31 @@
+{
+  "transport": "actual local stdio MCP",
+  "client": "scripted official-SDK client; not an AI playthrough",
+  "tools": [
+    "hauntkit_worlds",
+    "hauntkit_start",
+    "hauntkit_observe",
+    "hauntkit_act",
+    "hauntkit_export",
+    "hauntkit_restore"
+  ],
+  "world": "lost-letters",
+  "steps": [
+    "start",
+    "set_brief",
+    "compose",
+    "reject stale version",
+    "observe unchanged state",
+    "seal",
+    "export",
+    "restore"
+  ],
+  "conflict": "CONFLICT",
+  "stateUnchanged": true,
+  "artifact": {
+    "name": "letter-to-Sam.txt",
+    "mime": "text/plain"
+  },
+  "restoredSameDraft": true,
+  "draft": "Dear Sam,\n\nI keep coming back to this memory:\nWe counted stars beside the sea.\n\nSome moments keep their warmth no matter how much time passes. This is one of mine.\n\nThere is something I want you to know:\nI remember your kindness.\n\nAnd a small promise:\nI will write again.\n\nYours, always,"
+}

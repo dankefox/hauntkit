@@ -8,3 +8,5 @@ artifacts/
 .sites/
 *.log
 .DS_Store
+docs/demo/output/
+docs/demo/original-audio/
