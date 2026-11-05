@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.hauntkit/
+.env
+.env.*
+!.env.example
+artifacts/
+.sites/
+*.log
+.DS_Store

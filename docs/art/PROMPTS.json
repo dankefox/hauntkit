@@ -1,0 +1,14 @@
+{
+  "generator": "OpenAI image_gen",
+  "created": "2026-11-05",
+  "assets": [
+    {
+      "key": "ghost",
+      "prompt": "Use case: illustration-story. Asset: original wide background scene for Ghost Inn, a gentle haunted-inn exploration web game. Create a beautifully painted, tactile storybook illustration, landscape 3:2, no text, no typography, no UI. An oddly charming narrow Victorian seaside inn on a small mossy island at blue hour, crooked coral-red roof, warm golden windows, midnight-blue timber, a cobalt arched door, a brass bell, a little wind-bent tree and a tiny friendly white sheet ghost at the entrance. Rich editorial gouache and softly textured cut-paper shapes, sophisticated adult illustrated-book quality, expressive architectural detail, playful but not childish, warm peach, butter yellow, dusty teal, coral accents and deep ink shadows. Big clear silhouette, calm misty coastal sky, environment fills composition. No horror, no gore, no pumpkins, no logos, no watermark. This is usable final game art, not a mockup."
+    },
+    {
+      "key": "letters",
+      "prompt": "Use case: illustration-story. Asset: original wide artwork for Lost Letters, a thoughtful guided letter-writing web application. Create a sophisticated tactile gouache and cut-paper editorial storybook illustration, landscape 3:2. A cozy tiny late-night post office desk beside an arched cobalt window with a dark starry sky: cream paper, an open unmarked envelope, a coral-red wax seal, fountain pen, little ceramic mug, stack of butter-yellow letters, and a friendly small translucent white postal ghost leaning over the desk. Warm lamplight with blue shadows, muted peach and dusty teal walls, hand-painted grain, expressive asymmetric still-life composition, whimsical but designed for adults, bold simple shapes with exquisite small textures. No words or legible writing anywhere, no typography, no UI, no logos, no watermark. Separate complete scene with no inn building, no duplicated hero art. Usable final website artwork."
+    }
+  ]
+}

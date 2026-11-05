@@ -1,0 +1,30 @@
+import{test}from'node:test';import assert from'node:assert/strict';
+import{Client}from'@modelcontextprotocol/sdk/client/index.js';
+import{StdioClientTransport}from'@modelcontextprotocol/sdk/client/stdio.js';
+import{fileURLToPath}from'node:url';
+const entry=fileURLToPath(new URL('../packages/mcp/server.mjs',import.meta.url));
+test('real stdio MCP uses the same versioned worlds, errors, export, and restore',async t=>{
+ const transport=new StdioClientTransport({command:process.execPath,args:[entry],stderr:'pipe'});
+ const client=new Client({name:'hauntkit-real-transport-test',version:'1.0.0'});
+ await client.connect(transport);t.after(()=>client.close());
+ const tools=await client.listTools();assert.equal(tools.tools.length,6);
+ const call=async(name,args={})=>{const r=await client.callTool({name,arguments:args});return {raw:r,data:r.structuredContent??JSON.parse(r.content[0].text)};};
+ const catalog=await call('hauntkit_worlds');assert.equal(catalog.data.worlds.length,2);
+ const start=(await call('hauntkit_start',{world:'ghost-inn'})).data;
+ assert.equal(start.room.id,'lobby');assert.doesNotMatch(JSON.stringify(start),/Evelyn|0813|8:13/);
+ const denied=await call('hauntkit_act',{sessionId:start.sessionId,expectedVersion:start.version,action:'unlock',input:{code:'0000'}});
+ assert.equal(denied.raw.isError,true);
+ const same=(await call('hauntkit_observe',{sessionId:start.sessionId})).data;assert.equal(same.version,0);
+ const l=(await call('hauntkit_start',{world:'lost-letters'})).data;
+ let v=(await call('hauntkit_act',{sessionId:l.sessionId,expectedVersion:0,action:'set_brief',input:{recipient:'A friend',memory:'We counted stars beside the sea.',wish:'I remember.',promise:'I will write.'}})).data.view;
+ v=(await call('hauntkit_act',{sessionId:l.sessionId,expectedVersion:v.version,action:'compose',input:{tone:'warm'}})).data.view;
+ assert.match(v.draft,/stars/);
+ const stale=await call('hauntkit_act',{sessionId:l.sessionId,expectedVersion:0,action:'seal',input:{}});assert.equal(stale.data.error.code,'CONFLICT');
+ const sealed=(await call('hauntkit_act',{sessionId:l.sessionId,expectedVersion:v.version,action:'seal',input:{}})).data;assert.equal(sealed.artifact.mime,'text/plain');
+ const save=(await call('hauntkit_export',{sessionId:l.sessionId})).data.snapshot;
+ const duplicate=await call('hauntkit_restore',{snapshot:save});assert.equal(duplicate.data.error.code,'CONFLICT');
+ save.id='restored-letter';const restored=(await call('hauntkit_restore',{snapshot:save})).data;assert.equal(restored.draft,sealed.view.draft);
+ assert.equal((await call('hauntkit_observe',{sessionId:start.sessionId})).data.version,0);
+ const prompts=await client.listPrompts();assert.equal(prompts.prompts[0].name,'hauntkit_character');
+});
+
