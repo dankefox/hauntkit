@@ -1,4 +1,4 @@
-# Verification, 2026-11-05
+# Verification, 2026-11-05–06
 
 - `npm test`: 68 passing on Node 25.9.0 and on Node 20.20.2.
 - Nine new review regressions were first run against the initial Kiro candidate
@@ -27,9 +27,12 @@
 After participant confirmation, Site access was changed to public (revision 2).
 The previously unauthenticated Chrome tab loaded the landing page and both
 applications without a sign-in gate; ringing the Ghost Inn bell awarded the
-brass key. The YouTube walkthrough was uploaded as unlisted, passed the
-platform's copyright check at upload time, and played on its actual watch page:
+brass key. The YouTube walkthrough passed the platform's copyright check at
+upload time and played on its actual watch page:
 https://www.youtube.com/watch?v=hf8rdYMLEh8 .
+It was subsequently set to public to match the competition FAQ. YouTube Studio
+showed public visibility and confirmed that all changes were saved.
 
-Devpost project details are saved (3/5 steps). Additional participant information
-and final submission remain incomplete. Publication is not a submission receipt.
+Devpost project details and additional information are saved (4/5 steps).
+The final terms checkbox remains unchecked and the final submission has not
+been made. Publication is not a submission receipt.

@@ -47,21 +47,23 @@ JavaScript, HTML, CSS, Node.js, Kiro, Model Context Protocol, Zod, OpenAI image 
 - [x] Browser and MCP implementations
 - [x] Published source URL verified: https://github.com/dankefox/hauntkit
 - [x] Working demo URL verified
-- [x] Judge-accessible demonstration video under 3 minutes (unlisted)
-- [ ] Devpost draft details completed and preview checked
+- [x] Public demonstration video under 3 minutes
+- [x] Devpost draft details completed and preview checked
+- [x] Additional information saved
 - [ ] Final submission receipt
 - [ ] Credit-program identity verification handled by the participant
 
 ## Current concrete assets
 - Source: https://github.com/dankefox/hauntkit (public, MIT).
 - Public interactive demo: https://hauntkit.dandanceplay.chatgpt.site .
-- YouTube walkthrough: https://www.youtube.com/watch?v=hf8rdYMLEh8 (unlisted,
+- YouTube walkthrough: https://www.youtube.com/watch?v=hf8rdYMLEh8 (public,
   without a password; channel `dankefox`, handle `@dankefox-hauntkit`).
 - Local video: `site/demo/hauntkit-demo.mp4`, 92 seconds, H.264/AAC, 1080p.
 - Existing Devpost draft: Hauntkit — AI Character Starter, submission 1283278.
 - The participant approved public demo access and channel creation. The video
-  was uploaded, set to unlisted, and played on its actual YouTube watch page.
-  The required video URL, source, demo, story and three gallery images are
-  saved in Devpost project details (3/5 steps). Additional information and the
-  final submission remain incomplete; no final submission receipt is claimed.
+  was uploaded and played on its actual YouTube watch page, then set to public
+  to match the competition FAQ; Studio confirmed that all changes were saved.
+  The video URL, source, demo, story, three gallery images and additional
+  information are saved in Devpost (4/5 steps). Final terms and submission
+  remain for the participant; no final submission receipt is claimed.
 

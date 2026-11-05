@@ -1,6 +1,6 @@
 # The 92-second walkthrough
 
-Watch the uploaded unlisted version:
+Watch the public version:
 https://www.youtube.com/watch?v=hf8rdYMLEh8 . It is accessible by link without a
 password. YouTube displays 1:33 in its Studio list and 1:32 in the watch player;
 the checked local master is exactly 92 seconds.
