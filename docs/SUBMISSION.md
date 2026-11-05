@@ -1,4 +1,4 @@
-# Kiroween draft materials
+# Kiroween submission materials
 
 ## Name
 Hauntkit — AI Character Starter
@@ -50,7 +50,7 @@ JavaScript, HTML, CSS, Node.js, Kiro, Model Context Protocol, Zod, OpenAI image 
 - [x] Public demonstration video under 3 minutes
 - [x] Devpost draft details completed and preview checked
 - [x] Additional information saved
-- [ ] Final submission receipt
+- [x] Final submission receipt verified on Devpost
 - [ ] Credit-program identity verification handled by the participant
 
 ## Current concrete assets
@@ -59,11 +59,19 @@ JavaScript, HTML, CSS, Node.js, Kiro, Model Context Protocol, Zod, OpenAI image 
 - YouTube walkthrough: https://www.youtube.com/watch?v=hf8rdYMLEh8 (public,
   without a password; channel `dankefox`, handle `@dankefox-hauntkit`).
 - Local video: `site/demo/hauntkit-demo.mp4`, 92 seconds, H.264/AAC, 1080p.
-- Existing Devpost draft: Hauntkit — AI Character Starter, submission 1283278.
+- Submitted Devpost project: https://devpost.com/software/hauntkit-ai-character-starter
+  (Hauntkit — AI Character Starter, submission 1283278).
 - The participant approved public demo access and channel creation. The video
   was uploaded and played on its actual YouTube watch page, then set to public
   to match the competition FAQ; Studio confirmed that all changes were saved.
   The video URL, source, demo, story, three gallery images and additional
-  information are saved in Devpost (4/5 steps). Final terms and submission
-  remain for the participant; no final submission receipt is claimed.
+  information are saved in Devpost. The participant performed the final
+  submission on November 6, 2026 (UTC+8). The resulting project page explicitly
+  showed "Project submitted!" and "SUBMITTED TO → Kiroween 2026".
+- The separate free-credit application requires identity verification after
+  eligibility screening, with instructions by email. That verification and
+  credit approval are not claimed complete. Competition submission succeeded
+  without an identity-document or face-verification prompt; potential winners
+  are separately subject to identity and eligibility verification under the
+  competition rules.
 

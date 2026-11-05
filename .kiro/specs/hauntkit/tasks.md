@@ -9,7 +9,7 @@
 - [ ] Kiro agent plays both worlds via MCP; retain sanitized real evidence.
 - [x] Original art, accessible interactions, real browser verification.
 - [x] Public source, public interactive demo and uploaded walkthrough.
-- [ ] Complete participant information and final Devpost submission.
+- [x] Complete participant information and final Devpost submission.
 
 ## Notes
 
@@ -25,3 +25,7 @@ second ending and invalid-action cases are covered by automated world tests.
 The Kiro-agent MCP playthrough remains unchecked because the CLI quota is
 exhausted. Actual stdio MCP integration is tested with the official SDK client;
 that transport test is not represented as a Kiro playthrough.
+
+The participant performed the final submission on November 6, 2026 (UTC+8).
+Devpost displayed "Project submitted!" and "SUBMITTED TO → Kiroween 2026".
+The separate credit-program identity verification remains unverified.

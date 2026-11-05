@@ -33,6 +33,10 @@ https://www.youtube.com/watch?v=hf8rdYMLEh8 .
 It was subsequently set to public to match the competition FAQ. YouTube Studio
 showed public visibility and confirmed that all changes were saved.
 
-Devpost project details and additional information are saved (4/5 steps).
-The final terms checkbox remains unchecked and the final submission has not
-been made. Publication is not a submission receipt.
+The participant performed the final Devpost submission on November 6, 2026
+(UTC+8). The resulting project page explicitly showed "Project submitted!"
+and "SUBMITTED TO → Kiroween 2026":
+https://devpost.com/software/hauntkit-ai-character-starter .
+This is the submission receipt, rather than an inference from publication.
+No identity-verification prompt appeared during this submission. The separate
+credit-program verification and approval are not claimed complete.
