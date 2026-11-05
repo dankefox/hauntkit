@@ -24,6 +24,12 @@
 - No production family service, account, database or model credential is used
   by the applications. No Kiro MCP playthrough is claimed after the CLI quota.
 
-The Sites deployment is initially owner-private; changing its audience and
-YouTube channel creation remain separate native/user confirmations. Deployment
-success does not mean a hackathon submission has been finalized.
+After participant confirmation, Site access was changed to public (revision 2).
+The previously unauthenticated Chrome tab loaded the landing page and both
+applications without a sign-in gate; ringing the Ghost Inn bell awarded the
+brass key. The YouTube walkthrough was uploaded as unlisted, passed the
+platform's copyright check at upload time, and played on its actual watch page:
+https://www.youtube.com/watch?v=hf8rdYMLEh8 .
+
+Devpost project details are saved (3/5 steps). Additional participant information
+and final submission remain incomplete. Publication is not a submission receipt.

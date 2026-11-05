@@ -1,5 +1,10 @@
 # The 92-second walkthrough
 
+Watch the uploaded unlisted version:
+https://www.youtube.com/watch?v=hf8rdYMLEh8 . It is accessible by link without a
+password. YouTube displays 1:33 in its Studio list and 1:32 in the watch player;
+the checked local master is exactly 92 seconds.
+
 `python3 docs/demo/render.py` reconstructs the picture edit and combines it with
 the checked-in lossless final audio mix. FFmpeg must be installed. Output goes
 to the ignored `docs/demo/output/` directory. Encoders may vary by FFmpeg version.

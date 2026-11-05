@@ -8,6 +8,13 @@ A reusable, stateful character starter, demonstrated by two distinct application
 
 The browser experiences need no account, API key, or backend. They use authored story dialogue and deterministic writing templates. A real **stdio MCP server** exposes the exact same world modules to an AI client.
 
+## Try it
+- [Public interactive demo](https://hauntkit.dandanceplay.chatgpt.site)
+- [92-second walkthrough on YouTube](https://www.youtube.com/watch?v=hf8rdYMLEh8) (unlisted; no password)
+
+Both browser apps are directly accessible without sign-in. The source and demo
+are published; this does not mean the Devpost competition entry is finalized.
+
 ## Run
 Requires Node.js 20+ and npm.
 

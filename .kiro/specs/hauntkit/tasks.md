@@ -8,7 +8,8 @@
 - [x] Official-SDK stdio MCP server and real transport tests.
 - [ ] Kiro agent plays both worlds via MCP; retain sanitized real evidence.
 - [x] Original art, accessible interactions, real browser verification.
-- [ ] Public source, deployed previews, demo video and submission materials.
+- [x] Public source, public interactive demo and uploaded walkthrough.
+- [ ] Complete participant information and final Devpost submission.
 
 ## Notes
 
